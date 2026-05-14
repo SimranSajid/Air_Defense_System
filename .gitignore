@@ -1,0 +1,26 @@
+# Arduino / PlatformIO build output
+.pio/
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Credentials — NEVER commit these
+secrets.h
+config.h
+
+# Arduino IDE
+*.bak
+
+# PlatformIO
+.vscode/
+.idea/
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
